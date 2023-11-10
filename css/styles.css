@@ -10,9 +10,11 @@ button {
     cursor:pointer;
 }
 
-/* body { font-family: 'Roboto',
+body { font-family: 'Roboto',
     sans-serif;
-} */
+    color: #2E2F42;
+    background-color: #FFF;;
+}
 
 .logotype {
 color: var(--IRIS, #4D5AE5);
@@ -42,4 +44,33 @@ color: var(--NAVY-BLUE, #2e2f42);
 .menu-link:hover, 
 .menu-link:focus {
 color: #404BBF;
+}
+
+.address-link {
+color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+color: #404BBF;
+}
+
+.title-wrapper {
+background-color: var(--NAVY-BLUE, #2E2F42);;
+}
+
+h1 {
+color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
